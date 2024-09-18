@@ -794,7 +794,7 @@ setTimeout(() => {
 // Preloader text handling
 
 new Typewriter(".loading-text", {
-  strings: ["Lakshan Is Thinking..."],
+  strings: ["Faheem Is Thinking..."],
   autoStart: true,
   delay: 50,
   cursor: "|",
@@ -881,82 +881,37 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
-    title: "PassGen",
+    title: "Canva clone",
     subTitle:
-      "You can easily generate secure and random passwords using this simple tool.",
-    thumbnail: "../img/projects-default.jpg",
+      "A clone of the canva website",
+    thumbnail: "../img/canva-clone.webp",
     description:
-      "PassGen is a Python CLI tool for generating secure, random passwords from the command line. It allows you to easily create strong and unique passwords for your accounts, with a variety of customization options. Simply enter a few commands and PassGen will do the rest, providing you with a secure password to use with confidence. Fast and efficient, PassGen is the perfect tool for anyone who needs to generate passwords on the fly.",
-    techStack: ["Python"],
-    srcURL: "https://github.com/LakshanRukantha/PassGen",
+      "This is a clone of the canva website that I made to sharpen my HTML and CSS skills.",
+    techStack: ["HTML", "CSS"],
+    srcURL: "https://faheem-t.github.io/canva-clone/",
   },
   {
-    title: "CutLink",
-    subTitle: "Here you have full control over your links.",
-    thumbnail: "../img/thumbnails/cutlink-thumbnail.png",
-    description:
-      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
-    techStack: ["React", "MUI"],
-    srcURL: "https://cut-link.netlify.app/",
-  },
-  {
-    title: "MindMate",
+    title: "Nothing clone",
     subTitle:
-      "Unlock the power of your mind with our AI-Driven mental health web application",
-    thumbnail: "../img/thumbnails/mindmate-thumbnail.png",
+      "A clone of the nothing website.",
+    thumbnail: "../img/nothing-clone.webp",
     description:
-      "MindMate is a web application that provides mental health solutions using artificial intelligence powered by OpenAI. It is designed to help individuals struggling with mental health issues to improve their well-being and overall quality of life. The app provides personalized and confidential support to users by analyzing their symptoms, emotions, and behavior. MindMate uses advanced algorithms to identify patterns in user data and provide them with tailored recommendations for managing their mental health.",
-    techStack: ["Next.js", "React", "Node.js"],
-    srcURL: "https://mind-mate.vercel.app/",
+      "This is another clone that I made. For this I made use of HTML and CSS along with Bootstrap to make the website responsive",
+    techStack: ["HTML", "CSS", "Bootstrap"],
+    srcURL: "https://faheem-t.github.io/nothing-clone/",
   },
   {
-    title: "GitTrack",
-    subTitle: "Gain insights and strengthen your GitHub connections",
-    thumbnail: "../img/thumbnails/gittrack-thumbnail.png",
-    description:
-      "GitTrack - an innovative web application designed to empower GitHub users with powerful network analysis tools. With GitTrack, you can effortlessly track and analyze your followers, identifying those who are not reciprocating the follow. Take control of your GitHub presence, strengthen your connections, and optimize your network. Gain valuable insights and make informed decisions to build a strong and engaged community.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    srcURL: "https://gittrack.vercel.app/",
-  },
-  {
-    title: "My Battery",
+    title: "Odin landing page",
     subTitle:
-      "Simple website that display the battery status of your device and the charging status.",
-    thumbnail: "../img/thumbnails/my-battery-thumbnail.png",
+      "My flexbox practice",
+    thumbnail: "../img/odin-landing-page.webp",
     description:
-      "My Battery is a simple and minimalistic web application that displays your battery percentage, charging status, and whether the battery is low or full. It's important to note that this is a website-based application.",
-    techStack: ["JavaScript", "HTML", "Tailwind CSS", "CSS"],
-    srcURL: "https://mybattery.vercel.app/",
+      "This is an exercise that was part of the Odin Project landing page. I was able to hone my flexbox understanding during this project",
+    techStack: ["HTML", "CSS"],
+    srcURL: "https://faheem-t.github.io/odin-landing-page/",
   },
-  {
-    title: "SysInfo",
-    subTitle: "Web based terminal emulator",
-    thumbnail: "../img/thumbnails/sys-info-thumbnail.png",
-    description:
-      "SysInfo is a web based terminal emulator which you can run basic commands like help, clear, battery, weather and etc.",
-    techStack: ["JavaScript", "HTML", "CSS", "Tailwind CSS"],
-    srcURL: "https://sys-info.vercel.app/",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
-  },
+
+
   // Add more objects for additional projectData here
 ];
 
@@ -985,7 +940,7 @@ function loadContent(projectData) {
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
        <div class="card-buttons">
-          <a href="https://github.com/LakshanRukantha" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
+          <a href="https://github.com/Faheem-T" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
           <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
       </div>`,
       data
@@ -1107,7 +1062,7 @@ function loadContent(projectData) {
 async function getRepoList() {
   try {
     const response = await fetch(
-      "https://api.github.com/users/LakshanRukantha/repos"
+      "https://api.github.com/users/Faheem-T/repos"
     );
     const data = await response.json();
     return data;
