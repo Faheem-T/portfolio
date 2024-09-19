@@ -791,7 +791,7 @@ setTimeout(() => {
   });
 }, 1400);
 
-// Preloader text handling
+// // Preloader text handling
 
 new Typewriter(".loading-text", {
   strings: ["Faheem Is Thinking..."],
@@ -843,39 +843,6 @@ VanillaTilt.init(document.querySelector(".bio-img"), {
   glare: true,
 });
 
-// Contact form status handling
-
-var form = document.getElementById("contact-form");
-
-async function handleSubmit(event) {
-  event.preventDefault();
-  var status = document.getElementById("status");
-  var data = new FormData(event.target);
-  fetch(event.target.action, {
-    method: form.method,
-    body: data,
-    headers: {
-      Accept: "application/json",
-    },
-  })
-    .then((response) => {
-      swal({
-        title: "Thank You!",
-        text: "Your message sent successfully. I'll get back to you soon!",
-        icon: "success",
-      });
-      form.reset();
-    })
-    .catch((error) => {
-      swal({
-        title: "Oops!",
-        text: "There was a problem with sending the message. Please refresh the page and try again later.",
-        icon: "error",
-      });
-      form.reset();
-    });
-}
-form.addEventListener("submit", handleSubmit);
 
 // projects section
 
