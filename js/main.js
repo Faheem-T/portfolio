@@ -851,7 +851,7 @@ const projectData = [
     title: "Canva clone",
     subTitle:
       "A clone of the canva website",
-    thumbnail: "../img/canva-clone.webp",
+    thumbnail: "./img/canva-clone.webp",
     description:
       "This is a clone of the canva website that I made to sharpen my HTML and CSS skills.",
     techStack: ["HTML", "CSS"],
@@ -861,7 +861,7 @@ const projectData = [
     title: "Nothing clone",
     subTitle:
       "A clone of the nothing website.",
-    thumbnail: "../img/nothing-clone.webp",
+    thumbnail: "./img/nothing-clone.webp",
     description:
       "This is another clone that I made. For this I made use of HTML and CSS along with Bootstrap to make the website responsive",
     techStack: ["HTML", "CSS", "Bootstrap"],
@@ -871,7 +871,7 @@ const projectData = [
     title: "Odin landing page",
     subTitle:
       "My flexbox practice",
-    thumbnail: "../img/odin-landing-page.webp",
+    thumbnail: "./img/odin-landing-page.webp",
     description:
       "This is an exercise that was part of the Odin Project landing page. I was able to hone my flexbox understanding during this project",
     techStack: ["HTML", "CSS"],
